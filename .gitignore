@@ -1,0 +1,11 @@
+tmp/
+temp/
+private/
+node_modules/
+
+# Temporary files
+*.~*
+metadata.tsv
+
+# npm
+package-lock.json
