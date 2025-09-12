@@ -1,0 +1,1 @@
+[].slice.call(document.querySelectorAll('[data-bs-toggle="switch-icon"]')).map(function(t){t.addEventListener("click",c=>{c.stopPropagation(),t.classList.toggle("active")})});
