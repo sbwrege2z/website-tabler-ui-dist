@@ -1,0 +1,1 @@
+[].slice.call(document.querySelectorAll("[data-mask]")).map(function(n){window.IMask&&new window.IMask(n,{mask:n.dataset.mask,o:"true"===n.dataset["mask-visible"]})});

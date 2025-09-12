@@ -1,0 +1,7 @@
+version: 1.0.0
+latest:
+  stage: "factory (commit: d8e73fb; v1.0.0; 2025-09-12T01:49:38.648Z), website (commit: 11f2ce4; 2025-09-12T01:49:38.661Z), tag: stage-v1.0.0"
+events:
+  - timestamp: 2025-09-12T01:49:38.632Z
+    type: release_staged
+    message: Release v1.0.0 staged

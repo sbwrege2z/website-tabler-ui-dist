@@ -1,0 +1,1 @@
+var elements=document.querySelectorAll("[data-countup]");elements.length&&elements.forEach(function(e){let t={};try{var n=e.getAttribute("data-countup")?JSON.parse(e.getAttribute("data-countup")):{};t=Object.assign({t:!0},n)}catch(e){}n=parseInt(e.innerHTML,10);window.countUp&&window.countUp.CountUp&&((e=new window.countUp.CountUp(e,n,t)).error||e.start())});
