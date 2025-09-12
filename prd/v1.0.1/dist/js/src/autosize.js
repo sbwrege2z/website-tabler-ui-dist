@@ -1,0 +1,1 @@
+var elements=document.querySelectorAll('[data-bs-toggle="autosize"]');elements.length&&elements.forEach(function(e){window.autosize&&window.autosize(e)});

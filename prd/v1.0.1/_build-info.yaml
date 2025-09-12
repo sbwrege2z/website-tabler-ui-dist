@@ -1,0 +1,10 @@
+version: 1.0.1
+latest:
+  build: "factory (commit: d8e73fb; v1.0.0; 2025-09-12T02:00:42.485Z), website (commit: 11f2ce4; 2025-09-12T02:00:42.495Z)"
+events:
+  - timestamp: 2025-09-12T02:00:42.476Z
+    type: prerelease_linked
+    message: Prerelease symlinks moved from v1.0.0 to v1.0.1
+  - timestamp: 2025-09-12T02:00:42.445Z
+    type: version_created
+    message: Version 1.0.1 directories created
