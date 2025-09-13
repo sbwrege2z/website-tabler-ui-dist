@@ -2,7 +2,11 @@ version: 1.0.1
 latest:
   build: "factory (commit: d8e73fb; v1.0.0; 2025-09-12T04:08:14.139Z), website (commit: 11f2ce4; 2025-09-12T04:08:14.149Z)"
   stage: "factory (commit: 8eca627; v1.0.0; 2025-09-13T09:48:39.111Z), website (commit: 167c742; 2025-09-13T09:48:39.138Z), tag: stage-v1.0.1"
+  deploy: "factory (commit: 8eca627; v1.0.0; 2025-09-13T09:49:38.258Z), website (commit: 167c742; 2025-09-13T09:49:38.269Z), tag: release-v1.0.1"
 events:
+  - timestamp: 2025-09-13T09:49:38.245Z
+    type: release_deployed
+    message: Release v1.0.1 deployed to production
   - timestamp: 2025-09-13T09:48:39.090Z
     type: release_staged
     message: Release v1.0.1 staged
